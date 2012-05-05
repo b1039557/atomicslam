@@ -1,1 +1,15 @@
-this is my customised readme fle where i can make notes blah blah bdrfuovbuo[bvuobvfgourvab[uofbvo[
+created project called atomicslam
+created a directory call assignment using mkdir assignment
+created new applictaion called Placements
+ran the application and enter http://localhost:8080/Placements into the browser
+Modified Placements application -->  index.gsp file to changed view I ran         gedit  ./application.properties      cmd  
+
+
+grails create-app student 
+then git add student
+then do a commit by  commit -a -m "eg created an app"
+then do git push   (to push it upto github
+
+
+Issue i encountered:  miss understood naming conventions for String variables 
+which resulted in errors when i enterd new student details in the first form of one of the domains
