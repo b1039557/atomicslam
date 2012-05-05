@@ -1,10 +1,14 @@
 created project called atomicslam
 created a directory call assignment using mkdir assignment
 created new applictaion called Placements
+
 ran the application and enter http://localhost:8080/Placements into the browser
 Modified Placements application -->  index.gsp file to changed view I ran         gedit  ./application.properties      cmd  
+
 constantyl update readme file
+
 you can stop server running by pressing ctrl + c
+
 ----------------------------creating my domains classes-----------------------
 created domain  grails create-domain-class Student 
 created domain  grails create-domain-class Application
@@ -12,6 +16,8 @@ created domain  grails create-domain-class Status
 created domain  grails create-domain-class Oppurtunity 
 
 modified each groovy eg Student.groovy with the neccessary properties required
+forgot to add PlacementOppurtunity properties and then added them 
+
 ---------------------------Generating scaffolding----------------------------
 to generate scaffolding for a particular domain :  
 domain class placements.Application
@@ -21,6 +27,7 @@ generated all scaffolding for all the domains
 
 
 ---------------------------errors-------------------------------------------
+
 erros in the past, in the domain class Student when i was making variable i was not using the camel case standard for variables eg String CourseCode --> courseCode :) ryt, tried using google to solve this but but got responce from ian hurray :) 
 which solved the issue
 ------------------------------------------------------------------------------
