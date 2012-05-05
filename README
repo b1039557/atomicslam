@@ -21,11 +21,10 @@ generated all scaffolding for all the domains
 
 
 ---------------------------errors-------------------------------------------
-erros in the past, in the domain class Student when i was making variable iwas not using the camel case standard for variables eg String CourseCode --> courseCode :) ryt
+erros in the past, in the domain class Student when i was making variable i was not using the camel case standard for variables eg String CourseCode --> courseCode :) ryt, tried using google to solve this but but got responce from ian hurray :) 
+which solved the issue
 ------------------------------------------------------------------------------
 
 
 
 
-Issue i encountered:  miss understood naming conventions for String variables 
-which resulted in errors when i enterd new student details in the first form of one of the domains
