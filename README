@@ -12,9 +12,15 @@ created domain  grails create-domain-class Status
 created domain  grails create-domain-class Oppurtunity 
 
 modified each groovy eg Student.groovy with the neccessary properties required
+---------------------------Generating scaffolding----------------------------
+to generate scaffolding for a particular domain :  
+domain class placements.Application
+domain class placements.Status
 
+
+---------------------------errors-------------------------------------------
 erros in the past, in the domain class Student when i was making variable iwas not using the camel case standard for variables eg String CourseCode --> courseCode :) ryt
-
+------------------------------------------------------------------------------
 
 then git add student
 then do a commit by  commit -a -m "eg created an app"
