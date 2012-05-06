@@ -5,6 +5,10 @@ created new applictaion called Placements
 ran the application and enter http://localhost:8080/Placements into the browser
 Modified Placements application -->  index.gsp file to changed view I ran         gedit  ./application.properties      cmd  
 
+used git push ---> to push changes upto git hub
+
+I much better understand the idea of MVC :~)
+
 constantyl update readme file
 
 you can stop server running by pressing ctrl + c
@@ -26,10 +30,26 @@ domain class placements.Status
 generated all scaffolding for all the domains
 
 
+import placement.Student
+import placement.Status
+import placement.Application
+import placement.PlacementOppurtunity   
+
+  def  studentumair = new Student(name:'umair',courseCode:'T500', notes:'talanted' ,applications:'five').save();
+
+created some test data using the scaffolding and through bootstrap
+
+
 ---------------------------errors-------------------------------------------
 
 erros in the past, in the domain class Student when i was making variable i was not using the camel case standard for variables eg String CourseCode --> courseCode :) ryt, tried using google to solve this but but got responce from ian hurray :) 
 which solved the issue
+
+i forgot to enter the required properties for PlacementOppurtunity.groovy and generated the scaffolding, when when i navigated to this file in the browser there were no properties listed, then i added the required properties and run the cmd command once again overwriting the existing scaffolding, which solved the problem
+
+obtained a number of errors whilst assigning default status codes for the application
+
+had issues with bootstrap regarding compilations erros with miss spelt words
 ------------------------------------------------------------------------------
 
 
